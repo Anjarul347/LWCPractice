@@ -1,3 +1,8 @@
-import { LightningElement } from 'lwc';
+import { LightningElement,wire } from 'lwc';
 
-export default class HighRevenueAccounts extends LightningElement {}
+export default class HighRevenueAccounts extends LightningElement {
+    
+
+    
+}
+

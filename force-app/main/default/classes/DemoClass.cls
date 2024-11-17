@@ -1,12 +1,11 @@
-public with sharing class AccountController {
-
+public with sharing class DemoClass {
     @AuraEnabled
-    public static list<Account> getHighRevenueAccountRecords(){
+    public static string methodName(){
         try {
-            return ;
+            
         } catch (Exception e) {
             throw new AuraHandledException(e.getMessage());
         }
     }
-
+    
 }
